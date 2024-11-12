@@ -4,6 +4,8 @@ import mitsuba as mi
 import matplotlib.pyplot as plt
 import os
 import numpy as np
+import cholespy
+
 
 mi.set_variant('cuda_ad_rgb')
 from mitsuba import ScalarTransform4f as T
